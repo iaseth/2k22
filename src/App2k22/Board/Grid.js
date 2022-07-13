@@ -1,7 +1,7 @@
 import React from 'react';
 import Row from './Row';
 
-import {printGrid} from './GridUtils';
+import {printGrid, addA2} from './GridUtils';
 import {moveGridUp, moveGridDown, moveGridLeft, moveGridRight} from './GridUtils';
 
 
@@ -49,6 +49,7 @@ export default function Grid ({
 				break;
 		}
 
+		arr = addA2(arr, n);
 		printGrid(arr, n);
 		setValues(arr);
 		// console.log("Pressed: " + keyCode);

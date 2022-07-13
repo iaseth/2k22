@@ -101,3 +101,14 @@ export function moveGridRight (n, values) {
 	}
 	return arr;
 }
+
+
+export function addA2 (values, n) {
+	for (let i in values) {
+		if (values[i] === 0) {
+			values[i] = 2;
+			break;
+		}
+	}
+	return values;
+}
