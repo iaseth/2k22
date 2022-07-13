@@ -7,7 +7,7 @@ export default function MiddlePanel ({
 }) {
 
 	return (
-		<div className="MiddlePanel bg-slate-200 p-2">
+		<div className="MiddlePanel bg-slate-200 px-2 py-4">
 			{/*<ShadowGrid n={n} />*/}
 			<Grid n={n} />
 		</div>

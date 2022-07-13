@@ -10,5 +10,5 @@ export default function Row ({
 	const rowValues = values.slice(startIndex, startIndex + n);
 	const squares = rowValues.map((v, i) => <Square value={v} key={i} />);
 
-	return (<div className="Row flex">{squares}</div>);
+	return (<div className="Row flex justify-center">{squares}</div>);
 }
